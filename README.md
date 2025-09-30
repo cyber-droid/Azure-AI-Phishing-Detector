@@ -25,6 +25,18 @@ https://github.com/user-attachments/assets/0d65c298-f273-4281-b751-abd3281707a6
 
 The goal of this project was to build an intelligent application that can analyze user-submitted text or URLs and determine if they are a phishing attempt. Unlike simple blocklists, this solution provides a real-time classification ("Safe," "Suspicious," or "Malicious") along with a clear, context-aware explanation for its conclusion, powered by a Large Language Model.
 
+This application uses a Retrieval-Augmented Generation (RAG) architecture to analyze URLs and text for phishing threats in real-time, providing not just a classification, but a clear, AI-generated explanation for its reasoning.
+
+Key Technologies Implemented:
+
+AI Engine: Azure OpenAI (gpt-3.5-turbo)
+
+Knowledge Base: Azure AI Search (with Semantic Search enabled)
+
+Data Storage: Azure Blob Storage
+
+Hosting: Azure Web Apps on an App Service Plan
+
 <img width="600" height="600" alt="Gemini_Generated_Image_qzlj17qzlj17qzlj" src="https://github.com/user-attachments/assets/a04e0775-845f-4728-9fd9-844ee054b683" />
 
 
